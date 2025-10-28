@@ -18,6 +18,6 @@ This repository contains a comprehensive single-cell RNA sequencing analysis pip
 - **Visualization**: UMAP projections, violin plots, and heatmaps for result interpretation
 
 ## File Structure
-combined.h5ad - AnnData object containing merged data before batch correction
-integrated.h5ad - AnnData object after scVI integration and batch correction
-KEGG_RIBOSOME.v2025.1.Hs.tsv - Ribosomal gene set for quality control
+- **combined.h5ad**: AnnData object containing merged data before batch correction
+- **integrated.h5ad**: AnnData object after scVI integration and batch correction
+- **KEGG_RIBOSOME.v2025.1.Hs.tsv**: Ribosomal gene set for quality control
